@@ -24,18 +24,26 @@ header {
     padding: 10px;
 }
 
-header div {   
-    grid-column: 1 / 3;
+
+.menu {
+    grid-column: 2 / 3
 }
 
 .title {
     height: 50px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.menu {
+    height: 50px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
 }
 
 .navigation {
     display: none;
 }
-
 
 
 /* main section */
@@ -78,7 +86,17 @@ footer {
     .navigation {
         display: block;
         height: 50px;
+        grid-column: 1 / 3;
     }
+
+    .menu {
+        display: none;
+    }
+
+    .title {
+        grid-column: 1 / 3;
+    }
+
     /* main section */
     main {
         display: grid;
