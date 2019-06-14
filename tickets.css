@@ -1,0 +1,136 @@
+header,main,footer,div,section {
+    outline: 1px solid black;
+}
+
+header {
+    outline: 1px solid orange;
+}
+
+body {
+    max-width: 95%; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px; 
+    margin: auto;
+}
+
+header,main,footer,div,section{  
+    margin-top: 1em;
+}
+
+
+@font-face  {
+    font-family: Edmondsans;
+    src: url("fonts/Edmondsans-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: DancingSuperserif;
+    src:url('fonts/DancingSuperserif.ttf.woff') format('woff');    
+        font-weight: normal;
+        font-style: normal;
+}
+
+/* header section */
+
+h1 {
+    font-family: DancingSuperserif;
+    font-size: 6rem;
+    background-color: #e22f24;  /* this colour is used on the University of London website, which is appropriate as this theme park is UoL Land */
+    text-align: center;
+}
+
+nav {
+    background-color: #0055a6; /* this colour is used on the University of London website, which is appropriate as this theme park is UoL Land */
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2em; /* this is just to separate the announcements visually, they'll be properly positioned in the part 4 project */   
+}
+
+nav a {   
+    font-family: Edmondsans, Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+
+.announcements li {  
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2em; /* this is just to separate the announcements visually, they'll be properly positioned in the part 4 project */
+}
+
+/* main */
+.intro {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.attraction {
+    background-color: #0055a6;
+    width: 400px;
+}
+
+.attraction h4 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    margin: 0;   
+}
+
+.map {
+    background-color: #e22f24;
+    width: 400px;
+}
+
+.map h4 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+#ticketPrices table{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+}
+
+#ticketPrices table th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.17em;
+}
+
+#ticketPrices table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+.hotel p{
+    width: 40%;
+    font-size: 
+}
+
+.hotel li{
+    margin-bottom: 5px;
+}
+
+/* footer */
+
+footer  {
+    font-weight: 600;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+
+}

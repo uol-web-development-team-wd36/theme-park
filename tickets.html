@@ -7,58 +7,80 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="tickets.css">
 </head>
 
 <body>
     <header>
         <h1>UoLLand - Tickets</h1>
         <nav>
+            <ul>    
                 <!-- the navigation is repeated on each page, make sure any changes are replicated -->
                 <!-- when styling is added and we make the page responsive, this will be hidden for small screens -->
-                <a href="index.html">Home</a>
-                <a href="attractions.html">Attractions</a>
-                <a href="tickets.html">Tickets</a>
-            </nav>
-    </header>
-    <div class="announcements">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="tickets.html">Tickets</a></li>
+            </ul>
+        </nav>
+        <div class="announcements">
         <ul>
-            <li>New ride arriving in spring!</li>
-            <li>50% discount for web developers!</li>
-            <li>New onsite hotel now open</li>
+            <li><strong>New ride arriving in spring!</strong></li>
+            <li><strong>50% discount for web developers!</strong></li>
+            <li><strong>New onsite hotel now open</strong></li>
         </ul>
     </div>
+    </header>
+    
 
     <main>
 
         <div id="ticketPrices">
+            
             <h2>Park Tickets</h2>
-
-            <div class="ticketGroup">
-                <h3>Day tickets</h3>
-                <ul>
-                    <li>Adult Price - $30.00</li>
-                    <li>Youth Price - $15.00</li>
-                    <li>Baby Price - $5.00</li>
-                </ul>
-            </div>
-
-            <div class="ticketGroup">
-                <h3>After 4pm tickets</h3>
-                <ul>
-                    <li>Adult Price - $25.00</li>
-                    <li>Youth Price - $10.00</li>
-                    <li>Baby Price - Free!</li>
-                </ul>
-            </div>
-
-            <div class="ticketGroup">
-                <h3>Other Prices</h3>
-                <ul>
-                    <li>Fast Pass Ticket - $35.00</li>
-                    <li>Annual Pass - $120.00</li>
-                    <li>Parking Price - $5 per hour</li>
-                </ul>
-            </div>
+            
+            <table class="ticketGroup">
+                <tr>
+                    <th>Ticket type</th>
+                    <th>Day tickets</th>
+                    <th>After 4pm tickets</th>
+                </tr>
+                <tr>
+                    <td>Adult</td>
+                    <td>$30.00</td>
+                    <td>$25.00</td>
+                </tr>
+                <tr>
+                    <td>Youth</td>
+                    <td>$15.00</td>
+                    <td>$10.00</td>
+                </tr>
+                <tr>
+                    <td>Baby</td>
+                    <td>$5.00</td>
+                    <td>Free!</td>
+                </tr>
+            </table>
+            
+            <h2>Other Prices</h2>
+            
+            <table class="ticketGroup">
+                <tr>
+                    <th>Ticket Type</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Fast Pass Ticket</td>
+                    <td>$35.00</td>
+                </tr>
+                <tr>
+                    <td>Annual Pass</td>
+                    <td>$120.00</td>
+                </tr>
+                <tr>
+                    <td>Parking</td>
+                    <td>$5 per hour</td>
+                </tr>
+            </table>
         </div>
 
         <div id="lodgingSection">
@@ -133,7 +155,7 @@
             </div>
 
         </div>
-
+        
     </main>
 
     <footer>
