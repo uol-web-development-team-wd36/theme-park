@@ -32,20 +32,6 @@ header,main,footer,div,section{
 
 /* header section */
 
-.grid-container-ride {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-areas:
-      'header header header header header header'
-      'nav nav nav nav nav nav'
-      'image image image image image image'
-      'imgCaption imgCaption imgCaption imgCaption imgCaption imgCaption'
-      'one one one two two two'
-      'three three three four four four'
-      'footer footer footer footer footer footer';
-    
-  }
-
 h1 {
     font-family: DancingSuperserif;
     font-size: 6rem;
@@ -83,23 +69,62 @@ nav a {
     font-weight: 400;
 }
 
-.attractionsList {
+.attraction {
     background-color: #0055a6;
     width: 400px;
 }
 
-.ride h4 {
+.attraction h4 {
     font-size: 1.7rem;
     font-weight: 700;
-
+    text-align: center;
     color: white;
-  
+    margin: 0;   
 }
 
-
-.ride img{
+.map {
+    background-color: #e22f24;
+    width: 400px;
 }
 
+.map h4 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+#ticketPrices table{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+}
+
+#ticketPrices table th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.17em;
+}
+
+#ticketPrices table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+.hotel p{
+    width: 40%;
+}
+
+.hotel li{
+    margin-bottom: 5px;
+}
+
+.ride p{
+    width: 40%;
+}
 
 /* footer */
 
