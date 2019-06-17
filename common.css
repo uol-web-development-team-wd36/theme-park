@@ -19,18 +19,10 @@ body {
 
 /* header section */
 
-header {  
-    
-  
-    /* padding: 0; */
-    /* padding: 10px; */
-}
-
 .navigation {
     display: block;
     height: 50px;  
 }
-
 
 h1 {
     font-family: DancingSuperserif;
@@ -48,7 +40,6 @@ nav ul {
     display: flex;
     justify-content: space-around;
     margin: 0;
-    
 }
 
 nav li {
@@ -64,10 +55,18 @@ nav a {
     color: white;
 }
 
+.announcements {
+    border-bottom: 1px solid;
+}
+
+.announcements ul {
+    display: flex;
+    justify-content: space-around; 
+}
+
 .announcements li {  
     list-style-type: none;
-    display: inline-block;
-    margin-left: 2em; /* this is just to separate the announcements visually, they'll be properly positioned in the part 4 project */
+    display: inline-block; 
 }
 
 /* footer */
