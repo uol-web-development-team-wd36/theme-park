@@ -1,3 +1,10 @@
+header,main,footer,div,section {
+    outline: 1px solid black;
+}
+
+header {
+    outline: 1px solid orange;
+}
 
 body {    
     font-family: Arial, Helvetica, sans-serif;
