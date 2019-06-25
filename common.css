@@ -12,6 +12,10 @@ body {
     margin: 0;    
 }
 
+a {
+    text-decoration: none;
+}
+
 @font-face  {
     font-family: Edmondsans;
     src: url("fonts/Edmondsans-Regular.otf") format("opentype");
@@ -57,8 +61,7 @@ nav li {
 nav a {   
     font-family: Edmondsans, Arial, Helvetica, sans-serif;
     font-size: 2rem;
-    font-weight: 500;
-    text-decoration: none;
+    font-weight: 500;   
     color: white;
 }
 

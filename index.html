@@ -35,8 +35,6 @@
         </div>
     </header>
     <main>
-
-
         <div class="picture">
             <!-- when styling is added and we make the page responsive, this will be hidden for small screens -->
             <img src="images/theme-park.jpg" alt="generic image of theme park" />
@@ -45,43 +43,51 @@
         <div class="intro">Welcome to UoL Land, a place of learning, excitement and enjoyment! We're sure you are going
             to enjoy
             your adventure. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse metus tellus, lobortis
-            hendrerit bibendum vel, lobortis porttitor massa. Nullam aliquet lacinia luctus. Fusce non velit eu sapien
-            blandit efficitur eu tempus lectus. Vestibulum eros turpis, mattis a nisi ut, mattis consectetur tortor.
-            Vivamus vel enim dui. Donec tincidunt tincidunt felis id hendrerit. Curabitur pellentesque urna sed magna
-            posuere eleifend. Morbi pellentesque arcu et pretium mattis. Praesent varius ex at tellus fringilla aliquam.
+            hendrerit bibendum.
         </div>
 
-        <div class="attractions button">
+        <section class="attractions button">
             <a href="attractions.html">
                 <img src="images/attractions.jpg" alt="picture of attractions" title="attractions" />
+                <h4>Attractions</h4>
             </a>
-        </div>
+        </section>
 
-        <div class="tickets button">
+        <section class="tickets button">
             <a href="tickets.html">
                 <img width="400" src="images/tickets.jpg" alt="picture of tickets" title="tickets" />
+                <h4>Tickets</h4>
             </a>
-        </div>
 
-        <section class="attraction"> -->
-            <!-- links to the specific attraction on the attractions page -->
-            <h4>The Plummet to Earth!</h4>
-            <a href="attractions.html#plummet">
-                <img width="400" src="images/rides/big-dipper.jpg" alt="picture of the plummet to Earth">
-            </a>
         </section>
 
         <section class="attraction">
             <!-- links to the specific attraction on the attractions page -->
-            <h4>The Gravitron 3000</h4>
-            <a href="attractions.html#gravitron">
-                <img width="400" src="images/rides/big-spinner.jpg" alt="picture of the gravitron 3000">
-            </a>
+            <div class="button">
+                <h4>The Plummet to Earth!</h4>
+                <a href="attractions.html#plummet">
+                    <img width="400" height="208" src="images/rides/big-dipper.jpg"
+                        alt="picture of the plummet to Earth">
+                </a>
+            </div>
+        </section>
+
+        <section class="attraction">
+            <!-- links to the specific attraction on the attractions page -->
+            <div class="button">
+                <h4>The Gravitron 3000</h4>
+                <a href="attractions.html#gravitron">
+                    <img width="400" height="208" src="images/rides/big-spinner.jpg"
+                        alt="picture of the gravitron 3000">
+                </a>
+            </div>
         </section>
 
         <section class="map">
             <h4>Map</h4>
-            <img src="images/map.jpg" alt="map of theme park" />
+            <div>
+                <img src="images/map.jpg" alt="map of theme park" />
+            </div>
         </section>
     </main>
     <footer>
@@ -95,4 +101,5 @@
         </div>
     </footer>
 </body>
+
 </html>

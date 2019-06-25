@@ -6,16 +6,32 @@
     font-weight: 400;
 }
 
-.attraction {
-    background-color: #0055a6;
+.button {
+    width: 400px;
 }
 
-.attraction h4 {
+.button img {
+    width: 400px;
+}
+
+.button h4 {
     font-size: 1.7rem;
     font-weight: 700;
     text-align: center;
     color: white;
     margin: 0;   
+}
+
+.tickets h4, .attractions h4 {
+    background-color: #e22f24;
+}
+
+.attraction .button {
+    background-color: #0055a6;    
+}
+
+.attraction h4 {
+    background-color: #0055a6;  
 }
 
 .map {
@@ -35,20 +51,27 @@
 main {
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 200px 200px 200px 200px 300px 300px; 
+    grid-template-rows: 200px auto auto auto auto auto;
 }
 
-main img {
+
+.picture {
+    display: block;
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;  
+ 
+}
+
+.picture img  {
     object-fit: contain;
     width: 100%;
     max-height: 100%;
 }
 
-.picture {
-    display: block;
-    grid-column: 1 / 2;
-    grid-row: 1 / 4;
-}
+.map img {
+     object-fit: contain;
+   width: 100%;
+    max-height: 100%; }
 
 .intro {
     display: block; 
@@ -59,9 +82,10 @@ main img {
 }
 
 .button {
-    width: 400px;
-    height: 208px;
+    width: 400px;   
+    margin: 1rem auto 1rem auto;   
 }
+
 
 .attractions {
     grid-column: 2 / 3;
@@ -72,6 +96,7 @@ main img {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
 }
+
 
 .attraction1 {
     grid-column: 2 / 3;        
@@ -84,5 +109,5 @@ main img {
 .map {
     display: block;
     grid-column: 1 / 2;
-    grid-row: 4 / 6 ;
-}    
+    grid-row: 4 / 6;
+}     
