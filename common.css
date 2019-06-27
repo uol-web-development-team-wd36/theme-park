@@ -6,6 +6,8 @@ header {
     outline: 1px solid orange;
 } */
 
+/* Provided by Gareth Erskine-Jones */
+
 body {    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px; 
@@ -19,6 +21,8 @@ a {
 img {
     display:  block;
 }
+
+
 
 
 @font-face  {
@@ -87,6 +91,14 @@ nav a {
     display: inline-block; 
 }
 
+/* main */
+
+main {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+
 /* footer */
 
 footer  {
@@ -96,6 +108,8 @@ footer  {
     align-items: center;
     border-top: 1px solid;
     margin-top: 0.5rem;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 footer a {

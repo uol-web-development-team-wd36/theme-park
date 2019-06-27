@@ -24,64 +24,65 @@
             </ul>
         </nav>
         <div class="announcements">
-        <ul>
-            <li><strong>New ride arriving in spring!</strong></li>
-            <li><strong>50% discount for web developers!</strong></li>
-            <li><strong>New onsite hotel now open</strong></li>
-        </ul>
+            <ul>
+                <li><strong>New ride arriving in spring!</strong></li>
+                <li><strong>50% discount for web developers!</strong></li>
+                <li><strong>New onsite hotel now open</strong></li>
+                <li><strong>Children's shows all year</strong></li>
+                <li><strong>Scary Halloween Events</strong></li>
+            </ul>
     </div>
     </header>
     
 
     <main>
-
         <div id="ticketPrices">
-            
-            <h2>Park Tickets</h2>
-            
-            <table class="ticketGroup">
-                <tr>
-                    <th>Ticket type</th>
-                    <th>Day tickets</th>
-                    <th>After 4pm tickets</th>
-                </tr>
-                <tr>
-                    <td>Adult</td>
-                    <td>$30.00</td>
-                    <td>$25.00</td>
-                </tr>
-                <tr>
-                    <td>Youth</td>
-                    <td>$15.00</td>
-                    <td>$10.00</td>
-                </tr>
-                <tr>
-                    <td>Baby</td>
-                    <td>$5.00</td>
-                    <td>Free!</td>
-                </tr>
-            </table>
-            
-            <h2>Other Prices</h2>
-            
-            <table class="ticketGroup">
-                <tr>
-                    <th>Ticket Type</th>
-                    <th>Price</th>
-                </tr>
-                <tr>
-                    <td>Fast Pass Ticket</td>
-                    <td>$35.00</td>
-                </tr>
-                <tr>
-                    <td>Annual Pass</td>
-                    <td>$120.00</td>
-                </tr>
-                <tr>
-                    <td>Parking</td>
-                    <td>$5 per hour</td>
-                </tr>
-            </table>
+            <div class="parkTicket">
+                <h2>Park Tickets</h2>
+                <table>
+                    <tr>
+                        <th>Ticket type</th>
+                        <th>Day tickets</th>
+                        <th>After 4pm tickets</th>
+                    </tr>
+                    <tr>
+                        <td>Adult</td>
+                        <td>$30.00</td>
+                        <td>$25.00</td>
+                    </tr>
+                    <tr>
+                        <td>Youth</td>
+                        <td>$15.00</td>
+                        <td>$10.00</td>
+                    </tr>
+                    <tr>
+                        <td>Baby</td>
+                        <td>$5.00</td>
+                        <td>Free!</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="otherTicket">
+                <h2>Other Prices</h2>
+                <table>
+                    <tr>
+                        <th>Ticket Type</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>Fast Pass Ticket</td>
+                        <td>$35.00</td>
+                    </tr>
+                    <tr>
+                        <td>Annual Pass</td>
+                        <td>$120.00</td>
+                    </tr>
+                    <tr>
+                        <td>Parking</td>
+                        <td>$5 per hour</td>
+                    </tr>
+                </table>
+            </div>
         </div>
 
         <div id="lodgingSection">
@@ -89,35 +90,57 @@
             <h2>Lodgings</h2>
 
             <div class="hotel">
+                
                 <h3>Grand Pyriot Hotel</h3>
-                <img src="images/hotels/hotel1-image.jpg" alt="grant pyriot hotel image" height="150">
-                <img src="images/hotels/hotel1-interior.jpg" alt="grant pyriot hotel interior" height="150">
-                <img src="images/hotels/hotel1-gym.jpg" alt="grant pyriot hotel gym" height="150">
-                <img src="images/hotels/hotel1-foods.jpg" alt="grant pyriot hotel food" height="150">
+                <div class="Images">
+                    <div class="hotelImage">
+                        <img src="images/hotels/hotel1-image.jpg" alt="grant pyriot hotel image" height="150">
+                    </div>
+                    <div class="hotelImage">
+                        <img src="images/hotels/hotel1-interior.jpg" alt="grant pyriot hotel interior" height="150">
+                    </div>
+                    <div class="hotelImage">
+                        <img src="images/hotels/hotel1-gym.jpg" alt="grant pyriot hotel gym" height="150">
+                    </div>
+                    <div class="hotelImage">
+                        <img src="images/hotels/hotel1-foods.jpg" alt="grant pyriot hotel food" height="150">
+                    </div>
+                </div>
 
                 <p>Looking to stay in luxury? Money not an issue? Well look no further than the Grand Pyriot Hotel, located only a 5 minute drive from our theme park, the Grand Pyriot Hotel is home to world class service. Featuring stunning views right from your bedroom window, and many luxurious features, this hotel is hailed as one of the top in the world. </p>
-
-                <p>This hotel includes:</p>
-                <ul>
-                    <li>5 restaurants, including greek, italian, spanish, chinese and Continental Buffet</li>
-                    <li>A gym, with all your workout needs</li>
-                    <li>A luxury pool and poolside bar</li>
-                    <li>A variety of shops</li>
-                    <li>Pick up and drop off transportation</li>
-                    <li>In room service</li>
-                    <li>Laundry and dry cleaning service</li>
-                    <li>free wifi</li>
-                    <li>Daily Activities and tours</li>
-
-                </ul>
+                <div class="hotelAmenities">    
+                    <p>This hotel includes:</p>
+                    <ul>
+                        <li>5 restaurants, including greek, italian, spanish, chinese and Continental Buffet</li>
+                        <li>A gym, with all your workout needs</li>
+                        <li>A luxury pool and poolside bar</li>
+                        <li>A variety of shops</li>
+                        <li>Pick up and drop off transportation</li>
+                        <li>In room service</li>
+                        <li>Laundry and dry cleaning service</li>
+                        <li>free wifi</li>
+                        <li>Daily Activities and tours</li>
+                    </ul>
+                </div>
             </div>
 
+            
             <div class="hotel">
                 <h3>Little Cottage Suites</h3>
-                <img src="images/hotels/hotel3-exterior.jpg" alt="little cottage hotel exterior" height="150">
-                <img src="images/hotels/hotel3-interior.jpg" alt="little cottage hotel interior" height="150">
-                <img src="images/hotels/hotel3-foods.jpg" alt="little cottage hotel foods" height="150">
-                <img src="images/hotels/hotel3-living-room.jpg" alt="little cottage hotel living room" height="150">
+                <div class="Images">
+                    <div class="hotelImage">
+                        <img src="images/hotels/hotel3-exterior.jpg" alt="little cottage hotel exterior" height="150">
+                    </div>
+                    <div class="hotelImage">
+                        <img src="images/hotels/hotel3-interior.jpg" alt="little cottage hotel interior" height="150">
+                    </div>
+                    <div class="hotelImage">
+                        <img src="images/hotels/hotel3-foods.jpg" alt="little cottage hotel foods" height="150">
+                    </div>
+                    <div class="hotelImage">
+                        <img src="images/hotels/hotel3-living-room.jpg" alt="little cottage hotel living room" height="150">
+                    </div>
+                </div>
 
                 <p>If you want to stay somewhere that feels more like home, then this is for you. The Little Cottage Suites pride themselves on providing a cozy and authentic experience for guests. Located in the old part of town, this place will have you reminiscing of the past. A 10 minute drive, or 20 minute bus ride from the them park.</p>
 
@@ -132,13 +155,23 @@
                     <li>Private kitchen and living room</li>
                 </ul>
             </div>
-
+            
             <div class="hotel">
                 <h3>The Hampton</h3>
-                <img src="images/hotels/hotel2-exterior.jpg" alt="hampton hotel exterior" height="150">
-                <img src="images/hotels/hotel2-interior.jpg" alt="hampton hotel interior" height="150">
-                <img src="images/hotels/hotel2-gym.jpg" alt="hampton hotel gym" height="150">
-                <img src="images/hotels/hotel2-foods.jpg" alt="hampton hotel foods" height="150">
+                <div class="Images">
+                    <div class="hotelImage">
+                        <img src="images/hotels/hotel2-exterior.jpg" alt="hampton hotel exterior" height="150">
+                    </div>
+                    <div class="hotelImage">
+                        <img src="images/hotels/hotel2-interior.jpg" alt="hampton hotel interior" height="150">
+                    </div>
+                    <div class="hotelImage">
+                        <img src="images/hotels/hotel2-gym.jpg" alt="hampton hotel gym" height="150">
+                    </div>
+                    <div class="hotelImage">
+                        <img src="images/hotels/hotel2-foods.jpg" alt="hampton hotel foods" height="150">
+                    </div>
+                </div>
 
                 <p>Looking for value for your money? Then The Hampton is for you. This 4 star hotel is both affordable and luxurious, providing all the regular utilities and hotel services you could want at an affordable price. Located a 10 minute drive or 15 minute underground ride from our theme park.</p>
 
@@ -153,6 +186,7 @@
                     <li>Free wifi</li>
                     <li>Located right next to harbour street, famous for all its upmarket shopping</li>
                 </ul>
+                
             </div>
 
         </div>

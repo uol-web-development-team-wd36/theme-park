@@ -1,10 +1,20 @@
-
 /* main */
+
+/* Provided by Nur Athira */
+
+main {
+  margin-left: 15px;
+}
+
+#ticketPrices h2 {
+    font-size: 1.5rem;
+}
 
 #ticketPrices table {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  width: 30%;
+  width: 100%;
+  font-size: 1.1rem;
 }
 
 #ticketPrices table th {
@@ -20,10 +30,46 @@
   padding: 10px;
 }
 
+#lodgingSection h2 {
+    font-size: 1.5rem;
+}
+
+#lodgingSection h3 {
+    font-size: 1.2rem;
+}
+
+.hotel {
+    width: 100%;
+}
+
 .hotel p {
-    width: 40%;    
+    width: 40%; 
+    font-size: 1.1rem;
 }
 
 .hotel li {
     margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+.parkTicket { grid-area: park }
+.otherTicket { grid-area: other }
+
+#ticketPrices {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: '. park .'
+    '. other .';
+}
+
+.hotelImage {
+ float: left;
+  width: auto;
+  padding: 5px;
+}
+
+.Images::after {
+  content: "";
+  clear: both;
+  display: table;
 }
