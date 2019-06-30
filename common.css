@@ -11,7 +11,13 @@ header {
 body {    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px; 
+    color: white;
     margin: 0;    
+    background-image: url(images/starsVertical.jpg);
+    background-repeat: repeat;
+    background-size: auto;
+    background-color: cornflowerblue;
+    background-blend-mode: multiply;
 }
 
 a {
@@ -47,13 +53,13 @@ img {
 h1 {
     font-family: DancingSuperserif;
     font-size: 6rem;
-    background-color: #e22f24;  /* this colour is used on the University of London website, which is appropriate as this theme park is UoL Land */
+    background-color: #383EA6;  /* this colour is used on the University of London website, which is appropriate as this theme park is UoL Land */
     text-align: center;
     margin: 0; 
 }
 
 nav {
-    background-color: #0055a6; /* this colour is used on the University of London website, which is appropriate as this theme park is UoL Land */
+    background-color: #222059; /* this colour is used on the University of London website, which is appropriate as this theme park is UoL Land */
 }
 
 nav ul {
@@ -113,7 +119,7 @@ footer  {
 }
 
 footer a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
