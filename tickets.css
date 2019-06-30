@@ -63,9 +63,10 @@ main {
 }
 
 .hotelImage {
- float: left;
-  width: auto;
-  padding: 5px;
+    float: left;
+    width: auto;
+    padding: 15px;
+    transition: 1s;
 }
 
 .Images::after {
@@ -73,3 +74,16 @@ main {
   clear: both;
   display: table;
 }
+
+.hotel .imageSet{
+    margin 10px 50px;
+}
+
+.hotel .imageSet .img{
+
+}
+
+.hotelImage:hover{
+    transform: scale(1.1);
+}
+
