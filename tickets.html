@@ -9,6 +9,8 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" type="text/css" href="common.css">
     <link rel="stylesheet" type="text/css" href="tickets.css">
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <link href="lightbox/css/lightbox.css" rel="stylesheet">
 </head>
 
 <body>
@@ -158,18 +160,26 @@
             
             <div class="hotel">
                 <h3>The Hampton</h3>
-                <div class="Images">
+                <div class="imageSet">
                     <div class="hotelImage">
-                        <img src="images/hotels/hotel2-exterior.jpg" alt="hampton hotel exterior" height="150">
+                        <a class = "imageSet" href="images/hotels/hotel2-exterior.jpg" data-lightbox="HotelImages">
+                            <img src="images/hotels/hotel2-exterior.jpg" alt="hampton hotel exterior" height="150">
+                        </a>
                     </div>
                     <div class="hotelImage">
-                        <img src="images/hotels/hotel2-interior.jpg" alt="hampton hotel interior" height="150">
+                        <a class = "imageSet" href="images/hotels/hotel2-interior.jpg" data-lightbox="HotelImages" data-title = "The Hampton Hotel Bedroom">
+                            <img src="images/hotels/hotel2-interior.jpg" alt="hampton hotel interior" height="150">
+                        </a>
                     </div>
                     <div class="hotelImage">
-                        <img src="images/hotels/hotel2-gym.jpg" alt="hampton hotel gym" height="150">
+                        <a class = "imageSet" href="images/hotels/hotel2-gym.jpg" data-lightbox="HotelImages">
+                            <img src="images/hotels/hotel2-gym.jpg" alt="hampton hotel gym" height="150">
+                        </a>
                     </div>
                     <div class="hotelImage">
-                        <img src="images/hotels/hotel2-foods.jpg" alt="hampton hotel foods" height="150">
+                        <a class = "imageSet" href="images/hotels/hotel2-foods.jpg" data-lightbox="HotelImages">
+                            <img src="images/hotels/hotel2-foods.jpg" alt="hampton hotel foods" height="150">
+                        </a>
                     </div>
                 </div>
 
@@ -204,6 +214,8 @@
         </div>
     </footer>
 
+    <script src="path/to/lightbox.js"></script>
+    
 </body>
 
 </html>
